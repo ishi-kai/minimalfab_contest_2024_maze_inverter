@@ -1,17 +1,17 @@
 ## ミニマルファブコンテスト2024の第一部への投稿作品
 公式より、「ゲーム感覚で楽しんでほしい」という旨の発言があったため、まさにゲーム化してみるというチャレンジを行った。
 
-  ![maze_de_inverter_rule](/assets/images/contest/minimalfab_maze_rule.png)
-  ![maze_de_inverter_rule2](/assets/images/contest/minimalfab_maze_rule_other.png)
+  ![maze_de_inverter_rule](https://ishi-kai.org/assets/images/contest/minimalfab_maze_rule.png)
+  ![maze_de_inverter_rule2](https://ishi-kai.org/assets/images/contest/minimalfab_maze_rule_other.png)
 
 ### 例題
 - これが作るインバータのサンプルです
-    - ![inverter](/assets/images/contest/minimalfab_inverter_sample.png)  
+    - ![inverter](https://ishi-kai.org/assets/images/contest/minimalfab_inverter_sample.png)  
 
-  ![maze_de_inverter_1](/assets/images/contest/minimalfab_maze_example_1.png)  
-  ![maze_de_inverter_2](/assets/images/contest/minimalfab_maze_example_2.png)  
-  ![maze_de_inverter_3](/assets/images/contest/minimalfab_maze_example_3.png)  
-  ![maze_de_inverter_4](/assets/images/contest/minimalfab_maze_example_4.png)  
+  ![maze_de_inverter_1](https://ishi-kai.org/assets/images/contest/minimalfab_maze_example_1.png)  
+  ![maze_de_inverter_2](https://ishi-kai.org/assets/images/contest/minimalfab_maze_example_2.png)  
+  ![maze_de_inverter_3](https://ishi-kai.org/assets/images/contest/minimalfab_maze_example_3.png)  
+  ![maze_de_inverter_4](https://ishi-kai.org/assets/images/contest/minimalfab_maze_example_4.png)  
 
 
 ### なぜ、この作品なのか？

@@ -1,6 +1,15 @@
 ** sch_path: /Users/noritsuna/MF20/MAZE/maze_de_inverter.sch
-.subckt maze_de_inverter A1 Q1 VDD VSS A2 Q2 A3 Q3 A4 Q4
-*.PININFO A1:B Q1:B VDD:B VSS:B A2:B Q2:B A3:B Q3:B A4:B Q4:B
+**.subckt maze_de_inverter A1 Q1 VDD VSS A2 Q2 A3 Q3 A4 Q4
+*.iopin A1
+*.iopin Q1
+*.iopin VDD
+*.iopin VSS
+*.iopin A2
+*.iopin Q2
+*.iopin A3
+*.iopin Q3
+*.iopin A4
+*.iopin Q4
 M1 Q1 A1 VDD VDD pch w=40.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 M2 Q1 A1 VSS VSS nch w=10.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 x1 mosfets
@@ -11,14 +20,13 @@ M6 Q3 A3 VSS VSS nch w=10.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 M7 Q4 A4 VDD VDD pch w=40.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 M8 Q4 A4 VSS VSS nch w=10.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 x2 caps
-x3 resisters
-.ends
+x3 regs
+**.ends
 
 * expanding   symbol:  mosfets.sym # of pins=0
 ** sym_path: /Users/noritsuna/MF20/MAZE/mosfets.sym
 ** sch_path: /Users/noritsuna/MF20/MAZE/mosfets.sch
 .subckt mosfets
-
 M1 net1 net2 net3 net4 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
 M2 net5 net6 net7 net8 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
 M3 net9 net10 net11 net12 nch w=10u l=10u as=0 ps=0 ad=0 pd=0 m=1
@@ -50,7 +58,6 @@ M26 net93 net94 net95 net96 pch w=40u l=10u as=0 ps=0 ad=0 pd=0 m=1
 ** sym_path: /Users/noritsuna/MF20/MAZE/caps.sym
 ** sch_path: /Users/noritsuna/MF20/MAZE/caps.sch
 .subckt caps
-
 C1 net1 net2 0.414p m=1
 C2 net3 net4 0.414p m=1
 C3 net5 net6 0.414p m=1
@@ -70,11 +77,10 @@ C16 net31 net32 0.414p m=1
 .ends
 
 
-* expanding   symbol:  resisters.sym # of pins=0
-** sym_path: /Users/noritsuna/MF20/MAZE/resisters.sym
-** sch_path: /Users/noritsuna/MF20/MAZE/resisters.sch
-.subckt resisters
-
+* expanding   symbol:  regs.sym # of pins=0
+** sym_path: /Users/noritsuna/MF20/MAZE/regs.sym
+** sch_path: /Users/noritsuna/MF20/MAZE/regs.sch
+.subckt regs
 R1 net1 net2 0.54k m=1
 R2 net3 net4 0.54k m=1
 R3 net5 net6 0.54k m=1

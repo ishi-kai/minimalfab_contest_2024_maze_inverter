@@ -88,4 +88,4 @@ C {iopin.sym} 680 160 2 1 {name=p9 lab=Q4
 C {PMOS_MIN.sym} 580 110 0 0 {name=M7 l=10.0U w=40.0U}
 C {NMOS_MIN.sym} 580 200 0 0 {name=M8 l=10.0U w=10.0U}
 C {caps.sym} 130 -30 0 0 {name=x2}
-C {regs.sym} 410 -30 0 0 {name=x3}
+C {resisters.sym} 410 -30 0 0 {name=x3}

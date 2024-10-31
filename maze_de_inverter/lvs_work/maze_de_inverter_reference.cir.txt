@@ -20,7 +20,7 @@ M6 Q3 A3 VSS VSS nch w=10.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 M7 Q4 A4 VDD VDD pch w=40.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 M8 Q4 A4 VSS VSS nch w=10.0U l=10.0U as=0 ps=0 ad=0 pd=0 m=1
 x2 caps
-x3 regs
+x3 resisters
 **.ends
 
 * expanding   symbol:  mosfets.sym # of pins=0
@@ -77,10 +77,10 @@ C16 net31 net32 0.414p m=1
 .ends
 
 
-* expanding   symbol:  regs.sym # of pins=0
-** sym_path: /Users/noritsuna/MF20/MAZE/regs.sym
-** sch_path: /Users/noritsuna/MF20/MAZE/regs.sch
-.subckt regs
+* expanding   symbol:  resisters.sym # of pins=0
+** sym_path: /Users/noritsuna/MF20/MAZE/resisters.sym
+** sch_path: /Users/noritsuna/MF20/MAZE/resisters.sch
+.subckt resisters
 R1 net1 net2 0.54k m=1
 R2 net3 net4 0.54k m=1
 R3 net5 net6 0.54k m=1

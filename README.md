@@ -33,6 +33,14 @@
 
   ![member_target](images/member_target.png)
 
+
+### プレイ風景
+  ![playing1](images/playing1.jpg)
+  ![playing2](images/playing2.jpg)
+  ![playing3](images/playing3.jpg)
+  ![playing4](images/playing4.jpg)
+
+
 ### 結果
 #### 回路図
   ![maze_de_inverter_回路図](images/schematic.png)

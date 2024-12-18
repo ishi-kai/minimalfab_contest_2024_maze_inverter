@@ -27,7 +27,7 @@
 - 3番手：安藤陸
     - P-FET：1番
     - N-FET：8番
-- 4番手：匿名希望
+- 4番手：Steve Kasuya
     - P-FET：5番
     - N-FET：3番
 
